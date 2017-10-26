@@ -9,6 +9,7 @@ TEST = [
     (2, 0)
 ]
 
+
 @pytest.mark.parametrize('input, output', TEST)
 def test_sum_of_multy_3_and_5(input, output):
     """ Test Multiples of 3 and 5 - Return the Sum of Multiples of 3 and 5"""

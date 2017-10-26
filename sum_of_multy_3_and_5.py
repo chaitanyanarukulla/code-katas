@@ -4,8 +4,10 @@
 
 def solution(number):
     return sum(x for x in range(number) if x % 3 == 0 or x % 5 == 0)
-  
+
 """
+
+
 def solution(number):
     """Gets all numbers which are multiples of 5 or 3 and sums up"""
     sum_of_thr_fiv = 0
