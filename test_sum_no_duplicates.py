@@ -8,7 +8,8 @@ TEST = [([1, 1, 2, 3], 5),
         ([2, 0, 4, 2, 2, 3, 6, 7, 3, 8, 10, 6, 8], 21)
         ]
 
-@pytest.mark.parametrize('input,output',TEST)
-def test_sum_no_duplicates(input,output):
+
+@pytest.mark.parametrize('input,output', TEST)
+def test_sum_no_duplicates(input, output):
     from sum_no_duplicate import sum_no_duplicates
     assert sum_no_duplicates(input) == output
