@@ -1,5 +1,6 @@
-"""Kata: Highest and Lowest - In this little assignment you are given a 
-string of space separated numbers, and have to return the highest and lowest number.
+"""Kata: Highest and Lowest - In this little assignment you are given a
+string of space separated numbers, and have to return the highest and
+lowest number.
 
 #1 Best Practices Solution by CrazyMerlyn & others
 
@@ -10,7 +11,7 @@ def high_and_low(numbers): #z.
 
 
 def high_and_low(numbers):
-    ord_nums= []
+    ord_nums = []
     numbers = numbers.split()
     for i in numbers:
         ord_nums.append(int(i))
